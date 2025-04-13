@@ -1,0 +1,97 @@
+.wrapper {
+  max-width: 700px;
+  margin: 0 auto;
+  padding: 32px 20px;
+}
+
+.pageTitle {
+  display: inline;
+  font-size: 24px;
+}
+
+.category {
+  display: inline;
+  margin-left: 32px;
+  font-size: 16px;
+  padding: 2px 8px;
+  border-radius: 20px;
+}
+
+.category + .category {
+  margin-left: 10px;
+}
+
+.category.yellow {
+  background: #fff48c;
+}
+
+.category.green {
+  background: #8cffba;
+}
+
+.topicItem {
+  margin-top: 40px;
+  padding: 28px;
+  border: 1.8px solid #000;
+  border-radius: 20px;
+  box-shadow: 12px 12px 2px 1px rgba(0, 0, 255, 0.2);
+  /* border: 2px solid #8c97ff; */
+}
+
+.topicItemImage {
+  text-align: center;
+}
+
+.topicItemDetails {
+  margin-top: 20px;
+}
+
+.itemTitle {
+  display: inline;
+  font-size: 18px;
+}
+
+.shareIcon {
+  margin-left: 20px;
+}
+
+.itemPrice {
+  margin-top: 24px;
+}
+
+.priceLabel {
+  display: inline;
+  font-size: 12px;
+}
+
+.priceAmount {
+  display: inline;
+  font-size: 16px;
+}
+
+.itemDescription {
+  margin-top: 12px;
+  font-size: 14px;
+}
+
+.itemSpecs {
+  margin-top: 8px;
+  line-height: 1.2;
+}
+
+.spec {
+  display: inline;
+  margin-right: 4px;
+  padding: 0 4px;
+  background: #eee;
+  font-size: 12px;
+}
+
+.itemTags {
+  margin-top: 20px;
+}
+
+.tag {
+  color: #8c97ff;
+  font-size: 14px;
+}
