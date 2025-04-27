@@ -1,3 +1,4 @@
+/* lesson1 */
 .wrapper {
   padding: 64px 20px;
   min-width: 1280px;
@@ -16,6 +17,7 @@
 
 .category {
   display: inline-block;
+  color: #fff;
   font-size: 16px;
   padding: 2px 8px;
   margin-bottom: 16px;
@@ -27,15 +29,15 @@
 }
 
 .category.yellow {
-  background: #fff48c;
+  background: #ffe070;
 }
 
 .category.green {
-  background: #8cffba;
+  background: #7fe6a8;
 }
 
 .category.blue {
-  background: #b3d9ff;
+  background: #91c4ff;
 }
 
 .pickupItem {
@@ -53,9 +55,14 @@
   margin-top: 20px;
 }
 
-.pickupTitle {
+.largeName {
   font-size: 18px;
+  font-weight: 600;
   display: inline-block;
+}
+
+.pickupLogo {
+  margin-left: 12px;
 }
 
 .shareIcon {
