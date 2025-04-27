@@ -266,8 +266,8 @@
   display: grid;
   grid-template:
     "image . name ."
-    "image . tag ."
     "image . price ."
+    "image . tag ."
     "image . link ." / auto 12px 1fr 12px;
   align-items: center;
   border: 1.8px solid #000;
